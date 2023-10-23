@@ -1,0 +1,12 @@
+nav{
+    margin: 0px;
+}
+ul{
+        display: flex;
+        align-items:center ;
+        justify-content: space-around;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 30px;
+        background-color: antiquewhite;
+    }
