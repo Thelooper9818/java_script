@@ -19,6 +19,7 @@ while(game)
     choice === 'g' && user === 'g' )
     {
         alert("It's a tie");
+        total_attempt--;
     }
     else if(choice === 's' && user === 'g' || choice === 'g' && user === 'w' ||choice === 'w' && user === 's'  )
     {
