@@ -53,5 +53,5 @@ document.getElementById("id1").style.color = "green";
 document.getElementById("id2").innerHTML = `${jokes[choice + 1]}`;
 document.getElementById("id2").style.color = "red";
 
-document.getElementById("id3").innerHTML = `${jokes[choice + 1]}`;
+document.getElementById("id3").innerHTML = `${jokes[choice - 1]}`;
 document.getElementById("id3").style.color = "purple";
