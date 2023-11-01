@@ -29,6 +29,6 @@ console.log(sum); //this sum is printing the whole function and not only the res
 let d = setInterval(()=>{
     alert("i am set interval and i will run after 2 seconds everytime");
 }, 2000);
-
+//d gets the timeid of the setInterval
 clearInterval(d); //clearinterval can be cancelled in the same way settimeout is cancelled
 */
