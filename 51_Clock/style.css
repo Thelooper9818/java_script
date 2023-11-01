@@ -1,0 +1,52 @@
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+.container{
+    
+    margin : 50px;
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    border: 3px solid black;
+    border-style:groove;
+    text-align: center;
+    height : 300px;
+    width : 200px;
+    background-color: rgb(59, 3, 114);
+    font-size: 200px;
+    color:rgb(228, 223, 223)
+}
+
+#hr{
+    border-top-left-radius: 20%;
+    border-bottom-left-radius :20% ;
+}
+
+#sec{
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.dot{
+    width : 100px;
+}
+
+.dotSize{
+    height:150px;
+    font-size: 80px;
+}
+
+.dotLost{
+    font-size: 0px;
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+}
